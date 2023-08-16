@@ -63,3 +63,5 @@ module.exports = {
 @import 'tailwindcss/utilities';
 
 npm run dev
+
+npm install typed.js
