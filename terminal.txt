@@ -1,0 +1,65 @@
+[BACKEND]
+
+python -m venv venv
+
+venv/Scripts/activate
+
+pip install django djangorestframework django-cors-headers
+
+Note that we’re installing two more dependencies for our API:
+
+Django REST Framework: a powerful and flexible toolkit for building Web APIs
+django-cors-headers: an app for handling the server headers required for CORS
+These dependencies are useful for when we try to access the API from a different application. In this case, they help to connect Django and React.
+
+We’ll also make use of two other Django features designed to help us with boilerplate configs: django-admin and manage.py.
+
+django-admin is Django’s automatic admin interface. It’s basically a command-line utility to perform handy operations with Django.
+
+manage.py is a script that will help us manage our database, create tables from our models, handle migration and versioning, and properly create our projects.
+
+django-admin startproject backend .
+
+INSTALLED_APPS = [
+   ...
+    'rest_framework',
+    'corsheaders',
+]
+
+MIDDLEWARE = [
+    ....
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
+]
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+django-admin startapp resume
+django-admin startapp portfolio
+
+
+
+
+[FRONTEND]
+
+npm create vite@latest
+
+npm install tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
+
+"./index.html",
+"./src/**/*.{js,ts,jsx,tsx}",
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+npm run dev
