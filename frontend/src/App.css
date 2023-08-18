@@ -1,0 +1,15 @@
+body {
+    background-image: url('assets/background.svg');
+    background-color: #030712;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image {
+    background-image: url('assets/image.jpg');
+    background-color: #1f2937;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
