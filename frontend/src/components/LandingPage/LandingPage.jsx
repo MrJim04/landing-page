@@ -6,7 +6,7 @@ import LandingRightSideComponents from './LandingRightSideComponents'
 function LandingPage() {
   return (
     <>
-      <div className="m-5 flex flex-col md:flex-row ">
+      <div className="m-5 flex flex-col md:flex-row gap-4">
         <LandingRightSideComponents></LandingRightSideComponents>
         <LandingLeftSideComponents></LandingLeftSideComponents>
       </div>

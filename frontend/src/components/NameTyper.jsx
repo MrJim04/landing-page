@@ -10,7 +10,7 @@ function NameTyper() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Jimwell Ibay.', 'Web Developer.'],
+      strings: ['Jimwell Ibay', 'Web Developer', 'Graphic Designer'],
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,
@@ -29,8 +29,8 @@ function NameTyper() {
       <div className="font-mono 
           font-bold 
           text-gray-50 
-          text-5xl 
-          md:text-7xl 
+          text-4xl 
+          md:text-6xl 
           text-center 
           md:text-left 
           uppercase 
