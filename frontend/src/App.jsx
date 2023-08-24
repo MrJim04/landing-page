@@ -5,11 +5,12 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import LandingPage from './components/LandingPage/LandingPage'
 import Resume from './components/Resume/Resume';
+import Portfolio from './components/Portfolio/Portfolio'
 
 function App() {
   return (
     <>
-      <LandingPage></LandingPage>
+      <Portfolio></Portfolio>
     </>
   )
 }
