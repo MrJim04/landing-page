@@ -1,8 +1,16 @@
 import React from 'react'
+import Slide from './Slide'
 
 function Portfolio() {
+
+    
+
   return (
-    <div>Portfolio</div>
+    <>
+        <div className="container mx-auto">
+            <Slide></Slide>
+        </div>
+    </>
   )
 }
 

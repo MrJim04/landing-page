@@ -9,15 +9,11 @@ function LandingSkills() {
 
                 <Label text='JavaScript' background="bg-yellow-500"></Label>
                 <Label text='Python' background="bg-cyan-800"></Label>
-                <Label text='Solidity' background='bg-zinc-800'></Label>
-
                 <Label text='React' background="bg-blue-800"></Label>
+                
                 <Label text='Next.js' background="bg-zinc-900"></Label>
                 <Label text='Tailwind' background='bg-indigo-900'></Label>
-
                 <Label text='Boostrap' background='bg-violet-700'></Label>
-                <Label text='Canva' background='bg-blue-700'></Label>
-                <Label text='Webflow' background='bg-blue-800'></Label>
 
               </div>
         </div>

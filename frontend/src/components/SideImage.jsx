@@ -3,7 +3,7 @@ import React from 'react'
 function SideImage() {
   return (
     <>
-        <div className="bg-gray-900 py-60 rounded-sm image">
+        <div className="py-20 rounded-sm image">
           
         </div>
     </>
